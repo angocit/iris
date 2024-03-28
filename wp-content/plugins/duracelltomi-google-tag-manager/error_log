@@ -1,0 +1,8 @@
+[12-Nov-2021 04:03:34 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_dir_path() in /home/caoqbvkk/public_html/wp-content/plugins/duracelltomi-google-tag-manager/duracelltomi-google-tag-manager-for-wordpress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/caoqbvkk/public_html/wp-content/plugins/duracelltomi-google-tag-manager/duracelltomi-google-tag-manager-for-wordpress.php on line 17
+[18-Oct-2022 17:06:18 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_dir_path() in /home/caoqbvkk/public_html/wp-content/plugins/duracelltomi-google-tag-manager/duracelltomi-google-tag-manager-for-wordpress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/caoqbvkk/public_html/wp-content/plugins/duracelltomi-google-tag-manager/duracelltomi-google-tag-manager-for-wordpress.php on line 17

@@ -1,0 +1,10 @@
+[12-Nov-2021 04:03:33 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_dir_path() in /home/caoqbvkk/public_html/wp-content/plugins/wp-mail-smtp/wp_mail_smtp.php:113
+Stack trace:
+#0 /home/caoqbvkk/public_html/wp-content/plugins/wp-mail-smtp/wp_mail_smtp.php(152): wp_mail_smtp_check_pro_loading_allowed()
+#1 {main}
+  thrown in /home/caoqbvkk/public_html/wp-content/plugins/wp-mail-smtp/wp_mail_smtp.php on line 113
+[18-Oct-2022 17:06:15 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_dir_path() in /home/caoqbvkk/public_html/wp-content/plugins/wp-mail-smtp/wp_mail_smtp.php:113
+Stack trace:
+#0 /home/caoqbvkk/public_html/wp-content/plugins/wp-mail-smtp/wp_mail_smtp.php(152): wp_mail_smtp_check_pro_loading_allowed()
+#1 {main}
+  thrown in /home/caoqbvkk/public_html/wp-content/plugins/wp-mail-smtp/wp_mail_smtp.php on line 113

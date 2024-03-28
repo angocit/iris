@@ -1,0 +1,10 @@
+[12-Nov-2021 04:03:34 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/caoqbvkk/public_html/wp-content/plugins/custom-sidebars/customsidebars.php:47
+Stack trace:
+#0 /home/caoqbvkk/public_html/wp-content/plugins/custom-sidebars/customsidebars.php(117): inc_sidebars_init()
+#1 {main}
+  thrown in /home/caoqbvkk/public_html/wp-content/plugins/custom-sidebars/customsidebars.php on line 47
+[18-Oct-2022 17:06:18 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/caoqbvkk/public_html/wp-content/plugins/custom-sidebars/customsidebars.php:47
+Stack trace:
+#0 /home/caoqbvkk/public_html/wp-content/plugins/custom-sidebars/customsidebars.php(117): inc_sidebars_init()
+#1 {main}
+  thrown in /home/caoqbvkk/public_html/wp-content/plugins/custom-sidebars/customsidebars.php on line 47

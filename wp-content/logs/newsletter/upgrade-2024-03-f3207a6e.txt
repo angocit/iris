@@ -1,0 +1,33 @@
+19-03-2024 19:48:43 - INFO  - 8.0.6 - 14,2 MB/556 MB - admin > Start upgrade from 8.0.6
+19-03-2024 19:48:43 - INFO  - 8.0.6 - 14,2 MB/556 MB - admin > Array
+(
+    [`wp_67533d6_newsletter_emails`] => Created table `wp_67533d6_newsletter_emails`
+)
+
+19-03-2024 19:48:43 - INFO  - 8.0.6 - 14,2 MB/556 MB - admin > Array
+(
+    [`wp_67533d6_newsletter_sent`] => Created table `wp_67533d6_newsletter_sent`
+)
+
+19-03-2024 19:48:43 - INFO  - 8.0.6 - 14,2 MB/556 MB - admin > Array
+(
+    [`wp_67533d6_newsletter`] => Created table `wp_67533d6_newsletter`
+)
+
+19-03-2024 19:48:43 - INFO  - 8.0.6 - 14,2 MB/556 MB - admin > Array
+(
+    [`wp_67533d6_newsletter_user_logs`] => Created table `wp_67533d6_newsletter_user_logs`
+)
+
+19-03-2024 19:48:43 - INFO  - 8.0.6 - 14,2 MB/556 MB - admin > Array
+(
+    [`wp_67533d6_newsletter_user_meta`] => Created table `wp_67533d6_newsletter_user_meta`
+)
+
+19-03-2024 19:48:43 - INFO  - 8.0.6 - 14,2 MB/556 MB - admin > Array
+(
+    [`wp_67533d6_newsletter_stats`] => Created table `wp_67533d6_newsletter_stats`
+)
+
+19-03-2024 19:48:43 - INFO  - 8.0.6 - 14,2 MB/556 MB - admin > Backing up options of 8.0.6
+19-03-2024 19:48:43 - INFO  - 8.0.6 - 14,2 MB/556 MB - admin > End

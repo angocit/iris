@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Berling";
+        src: url("./fonts/BerlingskeSerif-Regular.ttf");
+    }
+    @font-face {
+        font-family: "SFPro";
+        src: url("./fonts/SFProDisplay-Regular.ttf");
+    }
+}
+body {
+}
+.banner {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%),
+        url(<path-to-image>), lightgray 0px -216.614px / 100% 134.138% no-repeat;
+}
+.banner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        171deg,
+        rgba(0, 0, 0, 0.24) 6.8%,
+        rgba(105, 105, 105, 0.12) 58.55%,
+        rgba(217, 217, 217, 0) 93.04%
+    );
+}
+.banner__image {
+    @apply object-center md:h-[940px];
+}
+.banner__content {
+    @apply text-center absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2;
+}
+.banner__title {
+    @apply font-berling  uppercase text-center bg-gradient-to-b from-white to-transparent text-transparent bg-clip-text;
+}
+
+.section-heading {
+    @apply font-Playfair text-center py-4;
+}
+/* FEATURE CATEGORY */
+.feature-category__name {
+    @apply text-[#1f1f1f] text-[16px] font-normal text-center uppercase mt-[6px];
+}
+.room-space-tabs__link {
+    @apply font-SFPro text-[20px] font-semibold text-[#1f1f1f] cursor-pointer uppercase py-5 px-1;
+    @apply hover:text-[#ba9b63];
+}
+.room-space-tabs__link.active {
+    @apply border-b-4 border-[#ba9b63];
+}
+.room-space__item {
+}
+.room-space-slide .swiper-slide {
+    width: 80%;
+}
+/* Attribute */
+.attribute-item {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+}
+/* Partners */
+.partners .swiper-slide {
+    width: 195px;
+}
+
+/* .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.feature-category-next,
+.feature-category-prev {
+    width: 60px;
+    height: 70px;
+    text-indent: -99999999px;
+}
